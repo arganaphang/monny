@@ -8,7 +8,9 @@ import 'package:monny/utils/formatters.dart';
 import 'package:monny/widgets/balance_card.dart';
 import 'package:monny/widgets/income_expense_row.dart';
 import 'package:monny/widgets/transaction_list_item.dart';
+import 'package:monny/models/transaction_type.dart';
 import 'package:monny/pages/add_transaction_page.dart';
+import 'package:monny/pages/transactions_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -119,7 +121,12 @@ class _ThisMonthSection extends StatelessWidget {
               ),
             ),
           ),
-          IncomeExpenseRow(income: income, expense: expense),
+          IncomeExpenseRow(
+            income: income,
+            expense: expense,
+            onIncomeTap: () => Get.to(() => const TransactionsPage(initialFilter: TransactionType.income)),
+            onExpenseTap: () => Get.to(() => const TransactionsPage(initialFilter: TransactionType.expense)),
+          ),
           const SizedBox(height: 8),
         ],
       );
@@ -143,7 +150,7 @@ class _SectionHeader extends StatelessWidget {
             style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
           ),
           TextButton(
-            onPressed: () {},
+            onPressed: () => Get.to(() => const TransactionsPage()),
             child: Text('see_all'.tr),
           ),
         ],

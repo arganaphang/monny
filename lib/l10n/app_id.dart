@@ -25,6 +25,14 @@ const Map<String, String> id = {
   'recent_transactions': 'Transaksi Terakhir',
   'see_all': 'Lihat Semua',
   'no_transactions': 'Belum ada transaksi',
+  'filter': 'Filter',
+  'reset': 'Reset',
+  'apply': 'Terapkan',
+  'all': 'Semua',
+  'transaction_type': 'Tipe',
+  'date_range': 'Rentang Tanggal',
+  'date_from': 'Dari',
+  'date_to': 'Sampai',
 
   // dashboard
   'period_week': 'Minggu',

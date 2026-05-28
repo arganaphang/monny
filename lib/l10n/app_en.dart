@@ -25,6 +25,14 @@ const Map<String, String> en = {
   'recent_transactions': 'Recent Transactions',
   'see_all': 'See All',
   'no_transactions': 'No transactions yet',
+  'filter': 'Filter',
+  'reset': 'Reset',
+  'apply': 'Apply',
+  'all': 'All',
+  'transaction_type': 'Type',
+  'date_range': 'Date Range',
+  'date_from': 'From',
+  'date_to': 'To',
 
   // dashboard
   'period_week': 'Week',
