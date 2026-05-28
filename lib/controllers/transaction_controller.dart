@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 
-import '../models/models.dart';
-import '../repositories/repositories.dart';
-import 'account_controller.dart';
+import 'package:monny/models/models.dart';
+import 'package:monny/repositories/repositories.dart';
+import 'package:monny/controllers/account_controller.dart';
 
 class TransactionController extends GetxController {
   final TransactionRepository _repo;

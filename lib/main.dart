@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'controllers/controllers.dart';
-import 'l10n/translations.dart';
-import 'pages/add_transaction_page.dart';
-import 'pages/dashboard_page.dart';
-import 'pages/home_page.dart';
-import 'pages/settings_page.dart';
+import 'package:monny/controllers/controllers.dart';
+import 'package:monny/l10n/translations.dart';
+import 'package:monny/pages/add_transaction_page.dart';
+import 'package:monny/pages/dashboard_page.dart';
+import 'package:monny/pages/home_page.dart';
+import 'package:monny/pages/settings_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

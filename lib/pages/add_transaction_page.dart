@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
-import '../controllers/controllers.dart';
-import '../models/models.dart';
-import '../utils/formatters.dart';
-import '../widgets/type_toggle.dart';
+import 'package:monny/controllers/controllers.dart';
+import 'package:monny/models/models.dart';
+import 'package:monny/utils/formatters.dart';
+import 'package:monny/widgets/type_toggle.dart';
 
 class AddTransactionPage extends StatefulWidget {
   final Transaction? transaction;

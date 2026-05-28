@@ -1,5 +1,5 @@
-import '../database/database.dart';
-import '../models/models.dart';
+import 'package:monny/database/database.dart';
+import 'package:monny/models/models.dart';
 
 class CategoryRepository {
   final CategoryDao _dao;

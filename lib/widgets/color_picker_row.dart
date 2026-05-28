@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../utils/picker_options.dart';
+import 'package:monny/utils/picker_options.dart';
 
 class ColorPickerRow extends StatelessWidget {
   final int selectedColorValue;

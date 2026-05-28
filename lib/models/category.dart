@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'transaction_type.dart';
+import 'package:monny/models/transaction_type.dart';
 
 part 'category.freezed.dart';
 part 'category.g.dart';

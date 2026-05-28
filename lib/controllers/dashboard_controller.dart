@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 
-import '../models/models.dart';
-import 'transaction_controller.dart';
-import 'category_controller.dart';
+import 'package:monny/models/models.dart';
+import 'package:monny/controllers/transaction_controller.dart';
+import 'package:monny/controllers/category_controller.dart';
 
 enum DashboardPeriod { week, month, year }
 

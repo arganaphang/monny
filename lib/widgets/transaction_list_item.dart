@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../models/models.dart';
-import '../utils/formatters.dart';
+import 'package:monny/models/models.dart';
+import 'package:monny/utils/formatters.dart';
 
 class TransactionListItem extends StatelessWidget {
   final Transaction transaction;

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controllers/category_controller.dart';
-import '../models/models.dart';
-import '../utils/picker_options.dart';
-import '../widgets/color_picker_row.dart';
-import '../widgets/type_toggle.dart';
+import 'package:monny/controllers/category_controller.dart';
+import 'package:monny/models/models.dart';
+import 'package:monny/utils/picker_options.dart';
+import 'package:monny/widgets/color_picker_row.dart';
+import 'package:monny/widgets/type_toggle.dart';
 
 class AddCategoryPage extends StatefulWidget {
   final Category? category;

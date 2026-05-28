@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../models/transaction_type.dart';
+import 'package:monny/models/transaction_type.dart';
 
 class TypeToggle extends StatelessWidget {
   final TransactionType value;

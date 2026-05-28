@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../utils/formatters.dart';
+import 'package:monny/utils/formatters.dart';
 
 class BalanceCard extends StatelessWidget {
   final double balance;

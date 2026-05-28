@@ -1,7 +1,7 @@
 import 'package:sqflite/sqflite.dart' hide Transaction;
 
-import '../../models/models.dart';
-import '../database_helper.dart';
+import 'package:monny/models/models.dart';
+import 'package:monny/database/database_helper.dart';
 
 class TransactionDao {
   static const _table = 'transactions';

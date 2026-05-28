@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controllers/dashboard_controller.dart';
-import '../widgets/category_breakdown.dart';
-import '../widgets/income_expense_row.dart';
-import '../widgets/period_selector.dart';
-import '../widgets/spending_bar_chart.dart';
+import 'package:monny/controllers/dashboard_controller.dart';
+import 'package:monny/widgets/category_breakdown.dart';
+import 'package:monny/widgets/income_expense_row.dart';
+import 'package:monny/widgets/period_selector.dart';
+import 'package:monny/widgets/spending_bar_chart.dart';
 
 class DashboardPage extends StatelessWidget {
   const DashboardPage({super.key});

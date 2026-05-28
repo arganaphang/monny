@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controllers/dashboard_controller.dart';
+import 'package:monny/controllers/dashboard_controller.dart';
 
 class PeriodSelector extends StatelessWidget {
   const PeriodSelector({super.key});

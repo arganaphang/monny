@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controllers/settings_controller.dart';
-import '../utils/picker_options.dart';
-import 'accounts_page.dart';
-import 'categories_page.dart';
+import 'package:monny/controllers/settings_controller.dart';
+import 'package:monny/utils/picker_options.dart';
+import 'package:monny/pages/accounts_page.dart';
+import 'package:monny/pages/categories_page.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});

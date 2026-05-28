@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controllers/category_controller.dart';
-import '../models/models.dart';
-import 'add_category_page.dart';
+import 'package:monny/controllers/category_controller.dart';
+import 'package:monny/models/models.dart';
+import 'package:monny/pages/add_category_page.dart';
 
 class CategoriesPage extends StatelessWidget {
   const CategoriesPage({super.key});

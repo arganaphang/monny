@@ -1,6 +1,6 @@
-import '../database/database.dart';
-import '../models/models.dart';
-import 'account_repository.dart';
+import 'package:monny/database/database.dart';
+import 'package:monny/models/models.dart';
+import 'package:monny/repositories/account_repository.dart';
 
 class TransactionRepository {
   final TransactionDao _dao;

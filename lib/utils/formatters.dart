@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 
-import '../controllers/settings_controller.dart';
+import 'package:monny/controllers/settings_controller.dart';
 
 String get _locale => Get.locale?.toLanguageTag() ?? 'en';
 

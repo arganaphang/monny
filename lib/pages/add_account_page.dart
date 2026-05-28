@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
-import '../controllers/account_controller.dart';
-import '../models/models.dart';
-import '../utils/picker_options.dart';
-import '../widgets/color_picker_row.dart';
+import 'package:monny/controllers/account_controller.dart';
+import 'package:monny/models/models.dart';
+import 'package:monny/utils/picker_options.dart';
+import 'package:monny/widgets/color_picker_row.dart';
 
 class AddAccountPage extends StatefulWidget {
   final Account? account;

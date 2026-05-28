@@ -2,7 +2,7 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controllers/dashboard_controller.dart';
+import 'package:monny/controllers/dashboard_controller.dart';
 
 class SpendingBarChart extends StatelessWidget {
   const SpendingBarChart({super.key});

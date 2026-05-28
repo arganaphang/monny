@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 
-import '../controllers/controllers.dart';
-import '../models/models.dart';
-import '../utils/formatters.dart';
-import '../widgets/balance_card.dart';
-import '../widgets/income_expense_row.dart';
-import '../widgets/transaction_list_item.dart';
-import 'add_transaction_page.dart';
+import 'package:monny/controllers/controllers.dart';
+import 'package:monny/models/models.dart';
+import 'package:monny/utils/formatters.dart';
+import 'package:monny/widgets/balance_card.dart';
+import 'package:monny/widgets/income_expense_row.dart';
+import 'package:monny/widgets/transaction_list_item.dart';
+import 'package:monny/pages/add_transaction_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

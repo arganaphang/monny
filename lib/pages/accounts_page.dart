@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../controllers/account_controller.dart';
-import '../models/models.dart';
-import '../utils/formatters.dart';
-import 'add_account_page.dart';
+import 'package:monny/controllers/account_controller.dart';
+import 'package:monny/models/models.dart';
+import 'package:monny/utils/formatters.dart';
+import 'package:monny/pages/add_account_page.dart';
 
 class AccountsPage extends StatelessWidget {
   const AccountsPage({super.key});

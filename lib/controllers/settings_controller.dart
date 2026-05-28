@@ -8,10 +8,10 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 
-import '../controllers/account_controller.dart';
-import '../controllers/category_controller.dart';
-import '../controllers/transaction_controller.dart';
-import '../database/database_helper.dart';
+import 'package:monny/controllers/account_controller.dart';
+import 'package:monny/controllers/category_controller.dart';
+import 'package:monny/controllers/transaction_controller.dart';
+import 'package:monny/database/database_helper.dart';
 
 class SettingsController extends GetxController {
   final _box = GetStorage();
