@@ -1,0 +1,110 @@
+const Map<String, String> en = {
+  'app_title': 'Monny',
+
+  // nav
+  'nav_home': 'Home',
+  'nav_dashboard': 'Dashboard',
+  'nav_settings': 'Settings',
+
+  // page titles
+  'home_title': 'Home',
+  'dashboard_title': 'Dashboard',
+  'settings_title': 'Settings',
+
+  // greetings
+  'greeting_morning': 'Good Morning',
+  'greeting_afternoon': 'Good Afternoon',
+  'greeting_evening': 'Good Evening',
+  'greeting_night': 'Good Night',
+
+  // home
+  'total_balance': 'Total Balance',
+  'this_month': 'This Month',
+  'income': 'Income',
+  'expense': 'Expense',
+  'recent_transactions': 'Recent Transactions',
+  'see_all': 'See All',
+  'no_transactions': 'No transactions yet',
+
+  // dashboard
+  'period_week': 'Week',
+  'period_month': 'Month',
+  'period_year': 'Year',
+  'spending_overview': 'Spending Overview',
+  'top_categories': 'Top Categories',
+  'no_data': 'No data for this period',
+
+  // add transaction
+  'add_transaction': 'Add Transaction',
+  'edit_transaction': 'Edit Transaction',
+  'delete_transaction': 'Delete Transaction',
+  'delete_transaction_confirm': 'Are you sure you want to delete this transaction? This action cannot be undone.',
+  'transaction_title': 'Title',
+  'transaction_title_hint': 'e.g. Grocery, Salary...',
+  'category': 'Category',
+  'select_category': 'Select a category',
+  'account': 'Account',
+  'select_account': 'Select an account',
+  'date': 'Date',
+  'note': 'Note',
+  'note_hint': 'Add a note (optional)',
+  'amount_required': 'Please enter an amount',
+  'amount_invalid': 'Please enter a valid amount',
+  'title_required': 'Please enter a title',
+  'category_required': 'Please select a category',
+  'account_required': 'Please select an account',
+
+  // accounts
+  'accounts': 'Accounts',
+  'add_account': 'Add Account',
+  'edit_account': 'Edit Account',
+  'account_name': 'Account Name',
+  'account_name_hint': 'e.g. Cash, BCA, GoPay...',
+  'initial_balance': 'Initial Balance',
+  'account_type': 'Account Type',
+  'account_type_cash': 'Cash',
+  'account_type_bank': 'Bank',
+  'account_type_ewallet': 'E-Wallet',
+  'account_type_other': 'Other',
+  'delete_account': 'Delete Account',
+  'delete_account_confirm': 'Are you sure you want to delete this account?',
+  'no_accounts': 'No accounts yet',
+
+  // categories
+  'categories': 'Categories',
+  'add_category': 'Add Category',
+  'edit_category': 'Edit Category',
+  'category_name': 'Category Name',
+  'category_name_hint': 'e.g. Food, Salary...',
+  'delete_category': 'Delete Category',
+  'delete_category_confirm': 'Are you sure you want to delete this category?',
+  'no_categories': 'No categories yet',
+
+  // form shared
+  'pick_color': 'Color',
+  'pick_icon': 'Icon',
+  'manage': 'Manage',
+
+  // settings
+  'appearance': 'Appearance',
+  'currency_symbol': 'Currency Symbol',
+  'currency_symbol_hint': 'e.g. Rp, \$, €, £',
+  'theme': 'Theme',
+  'theme_light': 'Light',
+  'theme_dark': 'Dark',
+  'theme_system': 'System',
+  'language': 'Language',
+  'data': 'Data',
+  'export_csv': 'Export to CSV',
+  'export_csv_subtitle': 'Share all transactions as a spreadsheet file',
+  'clear_data': 'Clear All Data',
+  'clear_data_subtitle': 'Permanently delete all accounts, categories and transactions',
+  'clear_data_confirm_title': 'Clear all data?',
+  'clear_data_confirm_body': 'This will permanently delete all accounts, categories, and transactions. This action cannot be undone.',
+  'save': 'Save',
+  'cancel': 'Cancel',
+  'delete': 'Delete',
+  'data_cleared': 'All data has been cleared',
+  'about': 'About',
+  'app_version': 'App Version',
+};
